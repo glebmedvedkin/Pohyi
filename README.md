@@ -17,6 +17,20 @@
 
 Imagine an assistant that never sleeps, never forgets, and silently orchestrates your entire digital existence. **Pohyi** is not just an AI—it is an autonomous agent integrated directly into your operating system. It observes your workflows, remembers your conversations, and acts on your behalf.
 
+<div align="center">
+  <img src="assets/desktop_ui.png" alt="Pohyi Desktop Interface" width="80%">
+  <br>
+  <i>Pohyi Desktop Core Interface</i>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="assets/mobile_ui.png" alt="Pohyi Mobile Interface" width="40%">
+  <br>
+  <i>Pohyi Mobile App</i>
+</div>
+
 Say goodbye to the anxiety of a lost file, a forgotten contact, or an unanswered message. While you sleep, code, or focus on deep work, Pohyi is optimizing your PC, managing your chats, and actively participating in your development process.
 
 ---
