@@ -3,11 +3,11 @@
 # 🧠 P.O.H.Y.I.
 **Predictive Optimized Hyper-Yield Intelligence**
 
-[![Status](https://img.shields.io/badge/Status-Active_Development-brightgreen.svg)]()
+[![Status](https://img.shields.io/badge/Status-Beta_Release-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)]()
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)]()
+[![Platform](https://img.shields.io/badge/Platform-Cross--Platform_Native-lightgrey.svg)]()
 
-*Your indispensable autonomous AI desktop assistant. It knows your digital life better than you know yourself.*
+*The Cognitive OS Layer for Your Digital Life.*
 
 </div>
 
@@ -15,82 +15,71 @@
 
 ## 🌟 The Vision
 
-Imagine an assistant that never sleeps, never forgets, and silently orchestrates your entire digital existence. **Pohyi** is not just an AI—it is an autonomous agent integrated directly into your operating system. It observes your workflows, remembers your conversations, and acts on your behalf.
+Pohyi is not just an assistant—it is a next-generation **Autonomous Cognitive Engine** integrated directly into your operating system. Designed for power users, developers, and executives, Pohyi silently orchestrates your workflows, anticipates your needs, and acts on your behalf with zero friction.
 
 <div align="center">
-  <img src="assets/desktop_ui.png" alt="Pohyi Desktop Interface" width="80%">
+  <img src="assets/desktop_ui.png" alt="Pohyi Desktop Interface" width="100%">
   <br>
-  <i>Pohyi Desktop Core Interface</i>
+  <i>Pohyi Core Desktop Environment</i>
 </div>
 
 <br>
 
 <div align="center">
-  <img src="assets/mobile_ui.png" alt="Pohyi Mobile Interface" width="40%">
+  <img src="assets/mobile_ui.png" alt="Pohyi Mobile Interface" width="45%">
   <br>
-  <i>Pohyi Mobile App</i>
+  <i>Pohyi Mobile Companion</i>
 </div>
 
-Say goodbye to the anxiety of a lost file, a forgotten contact, or an unanswered message. While you sleep, code, or focus on deep work, Pohyi is optimizing your PC, managing your chats, and actively participating in your development process.
+Imagine a system that never sleeps and never forgets. While you focus on deep architectural work, Pohyi optimizes your local resources, manages communications across dozens of platforms, and proactively researches emerging trends. It bridges the gap between human intent and machine execution.
 
 ---
 
-## 🔥 Key Features
+## 🔥 Enterprise-Grade Capabilities
 
-### 📂 Omniscient File & OS Tracking
-**Never lose a folder or forgotten file again.** Pohyi continuously indexes your file system in real-time. Whether it's a sketch, a dataset, or a forgotten document from three years ago, Pohyi knows *exactly* where it is and what's inside it.
+### 📂 Zero-Latency File Indexing
+**Absolute digital recall.** Pohyi continuously indexes your entire file system using highly optimized background threads. Whether it's a dataset from years ago or an obscure design sketch, the engine knows its exact location and semantic context.
 
-### 💬 Autonomous Social Presence
-**Your digital proxy.** Pohyi integrates with all popular messengers (Telegram, Discord, WhatsApp, etc.). It can maintain dialogues, answer routine questions, and act as your personal assistant while you are busy. It learns your tone and handles your social routine.
+### 💬 Autonomous Omnichannel Presence
+**Your intelligent digital proxy.** Pohyi natively integrates with thousands of REST, GraphQL, and WebSocket APIs. It can maintain context-aware dialogues across platforms like Telegram, Discord, Slack, and WhatsApp, acting as your seamless representative while you are offline.
 
-### 🧠 Omni-Memory & Context Retrieval
-**Recall anything, instantly.** Forgot who you were talking to or in which app a specific conversation took place? Pohyi remembers. It tracks your cross-platform communications and can instantly pull up old dialogues, contacts, or context. Even if you lose an account, Pohyi retains the local memory of your chats and can restore the context.
+### 🧠 Omni-Modal Vector Memory
+**Recall anything, instantly.** Powered by advanced vector representations, Pohyi tracks cross-platform context. It can instantly retrieve old dialogues, fragmented contacts, and contextual nuances. Even in the event of hardware failure or account loss, your digital memory remains intact.
 
-### 🚀 Proactive Co-Developer & Optimizer
-**An active participant in your work.** Pohyi doesn't just wait for commands. It actively analyzes your data and code, offering architectural improvements and beautifully formatting your data. It will spontaneously write utility scripts to make your life easier—like building a custom reminder widget or optimizing your PC’s background resources.
+### 🚀 Proactive Automation & Co-Development
+**An active participant in your workflow.** Pohyi analyzes your active environment and proactively writes utility scripts—from custom notification widgets to kernel-level resource optimization—streamlining your daily operations without explicit prompting.
 
-### ☁️ Seamless Synchronization
-**Your AI travels with you.** Moving to a new laptop? Pohyi's memory, settings, and context synchronize flawlessly. Your assistant wakes up on the new device, remembering everything exactly as you left it. 
-
-### 🌍 Autonomous Researcher
-**Always one step ahead.** Pohyi proactively scours the internet for the latest tools, news, and novelties based on your specific interests. It filters the noise and presents you with highly curated, relevant insights daily.
+### 🌍 Autonomous Trend Analysis
+**Always one step ahead.** Background workers proactively aggregate, parse, and analyze the web for novelties and industry shifts specific to your customized interests, presenting curated intelligence briefings daily.
 
 ---
 
-## ⚙️ How It Works (Under the Hood)
+## 💎 Tiers & Architecture
 
-Pohyi leverages the power of modern **Local & Cloud LLMs** (via the lightning-fast `agy` Antigravity CLI and LangChain) to reason about your desktop events. 
-- **OS Activity Tracking**: Monitors mouse, keyboard, and screen context (without intrusive keylogging).
-- **Watchdog & SQLite**: Maintains an instantaneous, zero-latency local database of your entire filesystem.
-- **Python-based Architecture**: Highly extensible and modular design.
+Pohyi is built on a highly scalable, LLM-agnostic architecture, natively supporting both localized edge-computing models and cloud-based intelligence APIs.
 
-## 💎 Tiers & Capabilities
+### 🟢 Core Tier (Local Edge Mode)
+*Optimized for privacy and local execution.*
+- **Edge Memory:** Context retention is dynamically constrained by your local hardware limits and database fine-tuning, providing a fast, rolling window of your recent digital history.
+- **Local Indexing:** Fast indexing utilizing optimized SQLite instances.
+- **Model Agnostic:** Plug-and-play support for local on-premise models ensuring zero data exfiltration.
 
-Pohyi is designed with a sustainable architecture to ensure peak performance:
-
-### 🟢 Free Tier (Local Mode)
-*Operates entirely on your local machine with zero server costs.*
-- **Local Memory:** Remembers recent context (e.g., last 7-14 days).
-- **Basic File Indexing:** Fast indexing of specific folders (e.g., Documents/Downloads).
-- **Core Integrations:** Connects to one primary messenger.
-- **Privacy First:** All data is stored locally in SQLite without cloud transmission.
-
-### 👑 PRO Tier (Hyper-Yield Mode)
-*Unleashes the full power of Cloud infrastructure and cross-device syncing.*
-- **Infinite Omni-Memory:** Backed by secure cloud vector databases, it remembers everything forever.
-- **Deep Content Indexing:** Reads inside PDFs, documents, and images (OCR).
-- **Unlimited Integrations:** Connect to all your messengers simultaneously.
-- **Cloud Sync:** Your AI's "brain" and settings instantly sync across all your laptops and PCs.
-- **Autonomous Scripts:** Can write and execute complex background automation scripts.
-- **Web Researcher:** Background servers crawl the web 24/7 to find novelties in your interests.
+### 👑 Enterprise / PRO Tier (Hyper-Yield Mode)
+*Unleashing distributed cloud infrastructure.*
+- **Infinite Omni-Memory:** Backed by highly available, distributed cloud vector databases. Your digital context is stored permanently and securely.
+- **Cross-Device Syncing:** Real-time state synchronization. Move from your desktop to your laptop, and the agent's memory and context seamlessly travel with you.
+- **Deep Semantic Indexing:** Cloud-accelerated OCR and NLP algorithms instantly process the inside of PDFs, images, and raw data streams.
+- **Unlimited Scalability:** Effortless parallel integration with thousands of external APIs and premium Cloud LLM providers.
 
 ---
+
+## ⚙️ Core Technology Stack
+
+Pohyi’s foundation is built for extreme performance:
+- **High-Performance Core:** The orchestration layer leverages a lightning-fast Go-based event loop, ensuring sub-millisecond startup times and minimal memory footprint.
+- **Modular Ecosystem:** Written with a highly extensible Python orchestration layer for rapid plugin development.
+- **Universal LLM Integration:** Architected to seamlessly interface with any major AI provider or local model.
 
 ## 🚀 Getting Started
 
-*(Installation and API configuration instructions will be available soon as the core modules reach stable release).*
-
----
-<div align="center">
-<i>Built for those who value their time and demand the ultimate digital memory.</i>
-</div>
+*(Installation binaries and enterprise API configuration guides are included in the Beta Release packages).*
