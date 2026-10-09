@@ -1,0 +1,10 @@
+# Pohyi - Dependencies
+langchain==0.1.13
+langchain-openai==0.1.0
+langchain-google-genai==1.0.1
+watchdog==4.0.0
+mss==9.0.1
+pynput==1.7.6
+Pillow==10.2.0
+python-dotenv==1.0.1
+sqlalchemy==2.0.28
