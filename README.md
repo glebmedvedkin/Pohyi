@@ -50,6 +50,28 @@ Pohyi leverages the power of modern **Local & Cloud LLMs** (via the lightning-fa
 - **Watchdog & SQLite**: Maintains an instantaneous, zero-latency local database of your entire filesystem.
 - **Python-based Architecture**: Highly extensible and modular design.
 
+## 💎 Tiers & Capabilities
+
+Pohyi is designed with a sustainable architecture to ensure peak performance:
+
+### 🟢 Free Tier (Local Mode)
+*Operates entirely on your local machine with zero server costs.*
+- **Local Memory:** Remembers recent context (e.g., last 7-14 days).
+- **Basic File Indexing:** Fast indexing of specific folders (e.g., Documents/Downloads).
+- **Core Integrations:** Connects to one primary messenger.
+- **Privacy First:** All data is stored locally in SQLite without cloud transmission.
+
+### 👑 PRO Tier (Hyper-Yield Mode)
+*Unleashes the full power of Cloud infrastructure and cross-device syncing.*
+- **Infinite Omni-Memory:** Backed by secure cloud vector databases, it remembers everything forever.
+- **Deep Content Indexing:** Reads inside PDFs, documents, and images (OCR).
+- **Unlimited Integrations:** Connect to all your messengers simultaneously.
+- **Cloud Sync:** Your AI's "brain" and settings instantly sync across all your laptops and PCs.
+- **Autonomous Scripts:** Can write and execute complex background automation scripts.
+- **Web Researcher:** Background servers crawl the web 24/7 to find novelties in your interests.
+
+---
+
 ## 🚀 Getting Started
 
 *(Installation and API configuration instructions will be available soon as the core modules reach stable release).*
