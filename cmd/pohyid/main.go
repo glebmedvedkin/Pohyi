@@ -8,11 +8,16 @@ import (
 	"syscall"
 
 	"github.com/glebmedvedkin-svg/Pohyi/internal/activity"
+	"github.com/glebmedvedkin-svg/Pohyi/internal/ipc"
 	"github.com/glebmedvedkin-svg/Pohyi/internal/watcher"
 )
 
 func main() {
 	log.Println("Starting Pohyi Daemon (Go Core)...")
+
+	// Initialize Proprietary Neural Bridge
+	neuralBridge := ipc.Connect()
+	_ = neuralBridge
 
 	// Start File Watcher
 	homeDir, _ := os.UserHomeDir()
